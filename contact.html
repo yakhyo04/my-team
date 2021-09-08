@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__bg">
+            <nav class="header__nav">
+                <div class="header__box">
+                    <a href="./index.html">
+                        <picture>
+                            <source media="(max-width: 770px)" srcset="./img/myteam-tablet.svg">
+                            <img src="./img/myteam-logo.svg" alt="myteam-logo">
+                        </picture>
+                    </a>
+                    <input class="check" id="check" type="checkbox">
+                    <label for="check">
+                        <span class="header__button"><img class="header__icon" src="./img/header-icon.svg" alt="header_icon"></span>
+                    </label>
+                    <div class="header__modalx">
+                        <div class="header__mb">
+                            <ul class="modalx__menu">
+                                <li class="modal__item"><a class="modalx__link" href="./index.html">home</a></li>
+                                <li class="modalx__item"><a class="modalx__link" href="./about.html">about</a></li>
+                            </ul>
+                            <a class="modalx__contact" href="./contact.html">contact us</a>
+                        </div>
+                    </div>
+                    <ul class="header__menu">
+                        <li class="header__item"><a class="header__link" href="./index.html">home</a></li>
+                        <li class="header__item"><a class="header__link" href="./about.html">about</a></li>
+                    </ul>
+                </div>
+                <a class="header__contact" href="./contact.html">contact us</a>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container contact__bg">
+        <section class="contact">
+            <div class="contact__aside">
+                <h2 class="contact__title">Contact</h2>
+                <h4 class="contact__subtitle">Ask us about</h4>
+                <ul class="contact__list">
+                    <li class="contact__sublist">
+                        <img class="contact__icon" src="./img/individual.svg" alt="individual">
+                        <p class="contact__text">The quality of our talent network</p>
+                    </li>
+                    <li class="contact__sublist">
+                        <img class="contact__icon" src="./img/implement.svg" alt="implement">
+                        <p class="contact__text">Usage & implementation of our software</p>
+                    </li>
+                    <li class="contact__sublist">
+                        <img class="contact__icon" src="./img/productivity.svg" alt="productivity">
+                        <p class="contact__text">How we help drive innovation</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact__bside">
+                <form class="contact__form" action="https://htmlacademy.ru">
+                    <div class="contact__item">
+                        <label for="name" class="contact__label white"></label>
+                        <input class="contact__input" type="text" id="name" placeholder="Name">
+                    </div>
+                    <div class="contact__item">
+                        <label for="mail" class="contact__label white"></label>
+                        <input class="contact__input" type="email" id="email" placeholder="Email Adress">
+                    </div>
+                    <div class="contact__item">
+                        <label for="company-name" class="contact__label white"></label>
+                        <input class="contact__input" type="company-name" id="company-name" placeholder="Company Name" ></input>
+                    </div>
+                    <div class="contact__item">
+                        <label for="title" class="contact__label white"></label>
+                        <input class="contact__input" type="title" id="title" placeholder="Title"></input>
+                    </div>
+                    <div class="contact__item">
+                        <label for="message" class="contact__label white"></label>
+                        <textarea class="contact__input contact__input--message texting" type="message" id="message" cols="3" rows="3" >Message</textarea>
+                    </div>
+                    <button class="contact__button" id="submit" type="submit" form="contact-form">submit</button>
+                </form>
+            </div>
+    </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer__bg">
+            <div class="footer__list">
+                <div class="footer__wrapper">
+                    <div class="footer__nav">
+                        <a href="./index.html">
+                            <picture>
+                                <source media="(max-width: 770px)" srcset="./img/myteam-tablet.svg">
+                                <img src="./img/myteam-logo.svg" alt="myteam-logo">
+                            </picture>
+                        </a>
+                        <ul class="footer__menu">
+                            <li class="footer__item"><a class="footer__link" href="./index.html">home</a></li>
+                            <li class="footer__item"><a class="footer__link" href="./about.html">about</a></li>
+                        </ul>
+                    </div>
+                    <p class="footer__text">987  Hillcrest Lane <br> Irvine, CA <br> California 92714 <br> Call Us : 949-833-7432</p>
+                </div>
+                <div class="footer__box">
+                    <span>
+                        <a href="#">
+                            <img class="footer__pic" src="./img/facebook.svg" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img class="footer__pic" src="./img/Path.svg" alt="path">
+                        </a>
+                        <a href="#">
+                            <img class="footer__pic" src="./img/twitter.svg" alt="twitter">
+                        </a>
+                    </span>
+                    <p class="footer__commit">Copyright 2020. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+.deliver{
+    background-color: #004047;
+    padding: 140px 165px;
+    background-image: url(../img/intro-decoration-4.svg), url(../img/intro-decoration-5.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    &__bg{
+        background-color:#004047;
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 56px;
+        
+        &--mark{
+            color: #79C8C7;
+        }
+    }
+    &__list{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(../img/“.svg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        margin-right: 30px;
+        
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__text{
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    &__subtitle{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #79C8C7;
+    }
+    &__subtext{
+        font-style: italic;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 2px;
+        margin-bottom: 32px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .deliver{
+        padding: 100px 98px;
+        
+        &__title{
+            font-size: 32px;
+            line-height: 32px;
+            margin-bottom: 48px;
+        }
+        &__list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &__item{
+            margin-right: 0;
+            margin-bottom: 48px;
+            
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        &__text{
+            margin-top: 36px;
+            margin-bottom: 16px;
+        }
+        &__subtext{
+            margin-bottom: 16px;
+        }
+    }
+}
+@media screen and (max-width: 560px) {
+    .deliver{
+        padding: 140px 24px;
+    }
+}

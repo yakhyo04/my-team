@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "livvic";
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1440px;
+}
+@media screen and (max-width: 770px) {
+    .container{
+        width: 770px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .container{
+        width: 100%;
+    }
+}
